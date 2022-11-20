@@ -1,0 +1,11 @@
+.header a {
+    text-decoration: none;
+    color: hotpink;
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.logo h3 {
+    color: hotpink;
+}
