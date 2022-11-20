@@ -1,0 +1,12 @@
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: hotpink;
+    padding: 9px;
+    border: hotpink;
+    width: 45%;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
