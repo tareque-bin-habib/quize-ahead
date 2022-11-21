@@ -7,8 +7,8 @@ import './Banner.css'
 const Banner = () => {
     return (
         <div className='banner row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 mt-4'>
-            <div>
-                <img className='img-fluid' src={img} alt="" />
+            <div className='banner-img'>
+                <img src={img} alt="" />
             </div>
             <div className='banner-details'>
                 <h3><span className='logo'>Quize Ahead</span> is a top leading quize <br />

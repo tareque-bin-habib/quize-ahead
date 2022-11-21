@@ -3,6 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import './Statistics.css'
 const Statistics = () => {
     const data = [
+
         {
             name: 'React',
             total: 8
@@ -22,12 +23,14 @@ const Statistics = () => {
     ]
 
     return (
-        <div className='d-flex align-items-center justify-content-center mt-5'>
+
+        <div className='state-container mt-5'>
+
             <div>
                 <h3 className='logo'>Total Quize in Every Topics</h3>
             </div>
-            <div>
-                <LineChart width={600} height={400} data={data}>
+            <div className='chart'>
+                <LineChart width={450} height={400} data={data}>
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                     <XAxis dataKey="name" />
                     <YAxis />
