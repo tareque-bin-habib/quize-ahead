@@ -12,6 +12,7 @@ const QuizeQuestions = () => {
             <div className='box-container'>
                 {
                     quizes.data.questions.map(quize => <AllQuestions key={quize.id} quize={quize}>
+                        console.log(quize)
                     </AllQuestions>)
 
                 }
