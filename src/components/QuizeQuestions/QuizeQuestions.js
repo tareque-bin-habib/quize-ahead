@@ -11,7 +11,9 @@ const QuizeQuestions = () => {
             <h3 className='text-center topic-head mt-5 mb-3'>Quize of {quizes.data.name}</h3>
             <div className='box-container'>
                 {
-                    quizes.data.questions.map(quize => <AllQuestions key={quize.id} quize={quize}></AllQuestions>)
+                    quizes.data.questions.map(quize => <AllQuestions key={quize.id} quize={quize}>
+                    </AllQuestions>)
+
                 }
             </div>
 

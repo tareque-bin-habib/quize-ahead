@@ -18,5 +18,15 @@
 
 .option-type {
     border: 1px solid grey;
-    padding: 10px;
+    padding: 12px;
+}
+
+.eye-icon {
+    width: 4%;
+}
+
+.questions-icon {
+    display: flex;
+    justify-content: space-between;
+
 }

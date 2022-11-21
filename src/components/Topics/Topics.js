@@ -6,7 +6,7 @@ import './Topics.css'
 const Topics = () => {
     const topics = useLoaderData();
     return (
-        <div className='topics-container mt-5'>
+        <div className='topics-container mt-5 '>
             {
                 topics.data.map(topic => <Topic key={topic.id} topic={topic}></Topic>)
             }
