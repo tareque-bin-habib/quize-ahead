@@ -7,6 +7,7 @@ import Topics from './components/Topics/Topics';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import QuizeQuestions from './components/QuizeQuestions/QuizeQuestions';
+import Error from './components/Error/Error';
 
 
 
@@ -40,6 +41,10 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '*',
+          element: <Error></Error>
         }
       ]
     }

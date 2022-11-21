@@ -1,3 +1,18 @@
+<!--About This Project  -->
+
+ # Project Name: Quize Ahead
+
+ # Live site: 
+
+ # Features:
+ 1. You can increase your programming skills
+ 2. You can Also see correct Answer
+ 3. You can easily see your realtime progress
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +83,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
